@@ -7,8 +7,10 @@ import ProductInCategory from './components/ProductInCategory';
 import Description from './components/Description';
 import CarouselProduct from '../Home/components/CarouselProduct';
 import Footer from '../Home/components/Footer';
+import { useState } from 'react';
 
 function DetailProduct() {
+  const [quantity, setQuantity] = useState(1);
   return (
     <div className='detail-product'>
       <Container >
